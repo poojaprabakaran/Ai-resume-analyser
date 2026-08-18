@@ -14,7 +14,7 @@ genai.configure(api_key=KEY)
 
 # Call the model
 
-model= genai.GenerativeModel('gemini-3.6-flash')
+model= genai.GenerativeModel('gemini-3.1-flash-lite')
 
 # Create def function to analyse pdf an job description
 
