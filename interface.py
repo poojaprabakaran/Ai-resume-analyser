@@ -15,7 +15,10 @@ st.sidebar.markdown("LinkedIn:'https://www.linkedin.com/in/poojaprabakaran/'")
 job_des = st.text_area('Copy paste the job description here', max_chars=10000)
 
 submit = st.button('Generate ATS score')
-
+     
 if submit:
     with st.spinner('Getting Results...'):
-     analyse_resume(pdf_doc, job_des)
+        result = analyse_resume(pdf_doc, job_des)
+
+    if result:
+        st.write(result)
