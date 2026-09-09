@@ -188,10 +188,8 @@ Actual ATS systems and recruitment processes may use different criteria and algo
 * 📝 Generate resume improvement suggestions
 * ✍️ Generate optimized resume bullet points
 * 📄 Compare multiple versions of a resume
-* 📈 Add visual charts for resume analysis
 * 💬 Add conversational follow-up questions
 * 🧠 Improve prompt structure and analysis consistency
-* 🌐 Deploy the application using Streamlit Cloud
 
 ## 👩‍💻 Author
 
